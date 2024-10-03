@@ -21,11 +21,11 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    margin: 40px;
+    margin: 15px;
     color: black;
-    font-size: 120%;
+    font-size: 70%;
     font-weight: 800;
-    background-color: rgb(172, 132, 132,0.2);
+    background-color: rgba(51, 51, 51, 0.2);
     padding: 10px;
     border-radius: 50px;
     
@@ -35,7 +35,7 @@ nav ul li a{
     border-radius: 50px;
     padding: 11px;
     cursor: pointer;
-    background-color: rgb(172, 132, 132,0.2);
+    background-color: rgba(88, 88, 88, 0.2);
     transform: translateY(12px);
     transition: transform 1.5s;
 }
@@ -43,7 +43,7 @@ nav ul li a{
     transform: scale(110%);
 }
 nav ul li a:hover{
-    color: rgb(178, 5, 5);
+    color: rgb(209, 13, 13);
 
 }
 video{
@@ -58,18 +58,18 @@ video{
     top:40%;
     left: 38%;
     opacity: 0.8;
-    padding:40px;
+    padding:20px;
     padding-right: 5px;
-    width:500px;
+    width:400px;
     box-sizing: border-box;
     background-color: rgb(31, 33, 33);
     border-radius: 50px;
 }
 #srch{
     border-radius: 50px;
-    height: 30px;
+    height: 20px;
     padding: 10px;
-    padding-right: 180px;
+    padding-right: 130px;
     border:black;
     background-color: rgb(17, 17, 17);
     
@@ -123,7 +123,7 @@ iframe:hover{
 }
 
 .products{
-    width: 100%;
+    width: 50%;
     height: 100vh;
     position: relative;
     display: inline;
@@ -140,8 +140,8 @@ iframe:hover{
     clip-path: circle(65%);
 }
 .card{
-    width:300px;
-    height:500px;
+    width:250px;
+    height:380px;
     border-radius: 50px;
     margin: auto;
     transition: transform 1s;
@@ -155,7 +155,7 @@ iframe:hover{
 
 .cart{
     background-color: black;
-    padding: 10px;
+    padding: 8px;
     border-radius: 50px; 
     color: white;
     text-decoration: none;
@@ -166,7 +166,7 @@ background-color: white;
 }
 marquee ul li a{
     color: black;
-    font-size:400%;
+    font-size:350%;
     position: relative;
     top:10px;
     
@@ -194,7 +194,7 @@ marquee ul li{
     color: black;
     display: block;
     text-decoration: none;
-    padding-bottom: 30px;  
+    padding-bottom: 20px;  
 }
 
 .footer ul li a{
@@ -220,10 +220,11 @@ form{
 
 .send:hover{
     background-color: red;
+    color: white;
 }
 
 input::placeholder{
-    font-size: 18px;
+    font-size: 15px;
     transform: translatey(-3px);
     transform: translatex(-10);
   
